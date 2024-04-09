@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <link rel="stylesheet" href="https://picocss.com/docs/css/pico.docs.min.css">
+  <title>PicoCss</title>
+</head>
+
+<body>
+
+  <nav class="container" aria-label="breadcrumb" style="--pico-nav-breadcrumb-divider: '✨';">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact US</a></li>
+      <li></li>
+    </ul>
+  </nav>
+  <hr>
+
+  <hgroup class="container">
+    <h2>Lorem ipsum dolor sit.</h2>
+    <br>
+    <br>
+
+    <div class="grid">
+      <div>
+        <details open>
+          <summary>Accordion 1</summary>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laborum commodi inventore itaque architecto
+            hic deleniti iure est suscipit quo, atque quis neque vel officia, nihil quibusdam nobis?</p>
+          <a href="Turkey">Turkey</a>
+        </details>
+
+        <hr />
+
+        <details>
+          <summary>Accordion 2</summary>
+          <ul>
+            <li><a href="mailto:aaaaa@gmail.com">aaaaa@gmail.com</a></li>
+            <li><a href="tel:01234567">01234567</a></li>
+          </ul>
+        </details>
+      </div>
+      <div>
+        <select name="Select" aria-label="Select your..." required>
+          <option selected disabled value="">
+            Select your...
+          </option>
+          <option>Sales</option>
+          <option>Transfer</option>
+          <option>More Information</option>
+        </select>
+        <input type="text" name="text" placeholder="Text" aria-label="Text" />
+        <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email" />
+        <input type="phone" name="phone" placeholder="Phone" aria-label="Phone" />
+        <fieldset>
+          <legend>Language preferences:</legend>
+          <label>
+            <input type="checkbox" name="english" checked />
+            English
+          </label>
+          <label>
+        </fieldset>
+      </div>
+    </div>
+    <hr>
+
+    <footer>
+      <div class="grid">
+        <div>
+          <a href="#">Primary</a>
+          <br>
+          <a href="contact.html" class="secondary">contact</a>
+          <br>
+          <a href="index.html" class="contrast">Home</a>
+          
+        </div>
+        <div>
+          <a href="index.html"><img src="https://picsum.photos/id/48/400/210" alt="lorem picsum"></a>
+        </div>
+      </div>
+    </footer>
+  
+</body>
+
+</html>
